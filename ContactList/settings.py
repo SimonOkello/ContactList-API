@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ContactList.apps.authentication.apps.AuthenticationConfig',
+    'ContactList.apps.contacts.apps.ContactsConfig',
 ]
 
 MIDDLEWARE = [

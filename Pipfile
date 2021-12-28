@@ -9,6 +9,11 @@ python-decouple = "*"
 djangorestframework = "*"
 pytest-django = "*"
 djangorestframework-simplejwt = "*"
+django-cors-headers = "*"
+drf-yasg = "*"
+django-phonenumber-field = {extras = ["phonenumberslite"], version = "*"}
+django-heroku = "*"
+gunicorn = "*"
 
 [dev-packages]
 pylint = "*"
